@@ -9,7 +9,4 @@
 
 return [
     'router'       => 'smtp',
-    'dependencies' => [
-        'Weline_Admin'
-    ]
 ];
