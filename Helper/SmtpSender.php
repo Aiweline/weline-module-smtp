@@ -119,6 +119,8 @@ class SmtpSender extends \Weline\Framework\App\Helper
                 foreach ($to as $to_email) {
                     if (isset($to_email['email'])) {
                         $this->mail->addAddress($to_email['email'], $to_email['name'] ?? '');               //Name is optional
+                    }elseif(is_string($to_email)){
+                        $this->mail->addAddress($to_email);               //Name is optional
                     }
                 }
             }
