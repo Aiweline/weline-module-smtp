@@ -13,7 +13,7 @@
 保存成功,"Saved successfully"
 删除成功！,"Deletion successful!"
 你要删除的记录已不存在！,"The record you want to delete no longer exists!"
-"Smtp 查询器不支持的操作：%{1}","Operation not supported by Smtp queryer: %{1}"
+"Smtp 查询器不支持的操作：%{1}","Smtp 查询器不支持的操作：%{1}"
 "SMTP 已配置","SMTP configured"
 "请先在 SMTP 配置中添加至少一个发件人","Please add at least one sender in the SMTP configuration first"
 "发件人 code 不能为空","Sender code cannot be empty"
